@@ -14,3 +14,6 @@ btn.addEventListener('click', function() {
         btn.textContent = 'SEE REVIEW';
     }
 });
+
+let containers = document.getElementsByClassName('container');
+//containers[3].classList.add('d-none');
